@@ -1,4 +1,4 @@
-package com.example.experiment_app
+package com.cifarx.experiment_app
 
 import io.flutter.embedding.android.FlutterActivity
 
