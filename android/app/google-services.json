@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181143469700",
+    "project_id": "experiment-app-13ff8",
+    "storage_bucket": "experiment-app-13ff8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181143469700:android:51f35049ce92ddf9654cd1",
+        "android_client_info": {
+          "package_name": "com.cifarx.experiment_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG7Lq0pxXPTm9aS-ARjIVlHWoQV_AL8xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -18,6 +18,12 @@ dependencies:
   hooks_riverpod: ^2.4.9
   flutter_hooks: ^0.20.4
   flutter_launcher_icons: ^0.13.1
+  connectivity_plus: ^2.3.8
+  internet_connection_checker: ^1.0.0+1
+  custom_lint: ^0.5.8
+  riverpod_lint: ^2.3.7
+  firebase_core: ^2.24.2
+  firebase_crashlytics: ^3.4.9
 
 dev_dependencies:
   flutter_test:
