@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'package:url_launcher/url_launcher.dart';
+
 import 'second_page.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/cupertino.dart';
@@ -46,8 +48,6 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     var connectivityResult = (Connectivity().checkConnectivity());
 
-    print(
-        'connectivityResult in build: ${connectivityResult.then((value) => print(value))}');
     return Scaffold(
       appBar: AppBar(
         title: const Text('Connectivity Checker'),
@@ -68,6 +68,7 @@ class _HomePageState extends State<HomePage> {
               ),
               child: const Text("Go to Second Page"),
             ),
+            const SizedBox(height: 20),
           ],
         ),
       ),
@@ -96,4 +97,13 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       );
+
+  // static void navigateTo(double lat, double lng) async {
+  //   var uri = Uri.parse("google.navigation:q=$lat,$lng&mode=d");
+  //   if (await canLaunch(uri.toString())) {
+  //     await launch(uri.toString());
+  //   } else {
+  //     throw 'Could not launch ${uri.toString()}';
+  //   }
+  // }
 }
